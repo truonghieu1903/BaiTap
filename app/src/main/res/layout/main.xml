@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="white"
+        android:padding="4dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/labelCoffee"
+            android:layout_width="fill_parent"
+            android:layout_height="51dp"
+            android:background="#ff0033cc"
+            android:text="English Vocalbulary"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:padding="15dip">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/myImageView1"
+            android:layout_width="320dp"
+            android:layout_height="193dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image4"
+            android:layout_marginTop="80dip"
+            android:layout_marginLeft="50dip">
+
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:text="Learn"
+            android:textStyle="bold"
+            android:layout_marginTop="30dip"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:text="Practice"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dip"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="150dip"
+            android:layout_height="50dip"
+            android:text="Test"
+            android:layout_marginTop="10dip"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/myImageBtn1"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:src="@drawable/image1" >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/myImageBtn1"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:src="@drawable/image2" >
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/myImageBtn1"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:src="@drawable/image3" >
+        </ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>
